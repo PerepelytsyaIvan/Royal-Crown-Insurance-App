@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E8DB07E60D64D124F94A1F /* Pods_RoyalCrownInsuranceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BAA18D9C8ACD75EEDFEA47 /* Pods_RoyalCrownInsuranceApp.framework */; };
+		F0128C2A24A3D20A00B17EF1 /* ServicessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0128C2924A3D20A00B17EF1 /* ServicessViewController.swift */; };
+		F0128C2E24A3D32400B17EF1 /* ServicessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0128C2C24A3D32400B17EF1 /* ServicessTableViewCell.swift */; };
+		F0128C2F24A3D32400B17EF1 /* ServicessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0128C2D24A3D32400B17EF1 /* ServicessTableViewCell.xib */; };
+		F0128C3124A3F1B600B17EF1 /* ServiceDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0128C3024A3F1B600B17EF1 /* ServiceDescriptionViewController.swift */; };
+		F0128C3324A3FEAE00B17EF1 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0128C3224A3FEAE00B17EF1 /* InstructionViewController.swift */; };
+		F022C4EC24AE5AD00036603B /* ExtensionColorUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022C4EB24AE5AD00036603B /* ExtensionColorUIImage.swift */; };
+		F06387F824AE7C4D0010E5B2 /* ExtensionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06387F724AE7C4D0010E5B2 /* ExtensionTextField.swift */; };
+		F0652B9824A49F3400F18941 /* ReportAnAccidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0652B9724A49F3400F18941 /* ReportAnAccidentViewController.swift */; };
+		F0652B9B24A4A6CF00F18941 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0652B9924A4A6CF00F18941 /* PhotoCollectionViewCell.swift */; };
+		F0652B9C24A4A6CF00F18941 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0652B9A24A4A6CF00F18941 /* PhotoCollectionViewCell.xib */; };
+		F0652BA024A4E1B700F18941 /* CustumCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0652B9F24A4E1B700F18941 /* CustumCameraViewController.swift */; };
+		F0652BA524A508B000F18941 /* CameraCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0652BA324A508B000F18941 /* CameraCollectionCell.swift */; };
+		F0652BA624A508B000F18941 /* CameraCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0652BA424A508B000F18941 /* CameraCollectionCell.xib */; };
+		F097DA8024A262D000DC6C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DA7F24A262D000DC6C0F /* AppDelegate.swift */; };
+		F097DA8524A262D000DC6C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F097DA8324A262D000DC6C0F /* Main.storyboard */; };
+		F097DA8724A262D300DC6C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F097DA8624A262D300DC6C0F /* Assets.xcassets */; };
+		F097DA8A24A262D300DC6C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F097DA8824A262D300DC6C0F /* LaunchScreen.storyboard */; };
+		F097DA9324A262F400DC6C0F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DA9224A262F400DC6C0F /* Model.swift */; };
+		F097DA9524A2654100DC6C0F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DA9424A2654100DC6C0F /* NetworkService.swift */; };
+		F097DA9724A2656400DC6C0F /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DA9624A2656400DC6C0F /* NetworkDataFetcher.swift */; };
+		F097DA9D24A28D5600DC6C0F /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DA9C24A28D5600DC6C0F /* MainScreenViewController.swift */; };
+		F097DAA024A2906300DC6C0F /* MainScreenMaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DA9E24A2906300DC6C0F /* MainScreenMaxCell.swift */; };
+		F097DAA124A2906300DC6C0F /* MainScreenMaxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F097DA9F24A2906300DC6C0F /* MainScreenMaxCell.xib */; };
+		F097DAA324A3326800DC6C0F /* ServicesAndAboutAndRoyalScrren.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DAA224A3326800DC6C0F /* ServicesAndAboutAndRoyalScrren.swift */; };
+		F097DAA624A3333A00DC6C0F /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DAA424A3333A00DC6C0F /* AboutTableViewCell.swift */; };
+		F097DAA724A3333A00DC6C0F /* AboutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F097DAA524A3333A00DC6C0F /* AboutTableViewCell.xib */; };
+		F097DAB124A3744700DC6C0F /* PhotoScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DAB024A3744700DC6C0F /* PhotoScreens.swift */; };
+		F097DAB924A3BC9100DC6C0F /* WhatToDoIfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DAB824A3BC9100DC6C0F /* WhatToDoIfViewController.swift */; };
+		F097DABC24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DABA24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.swift */; };
+		F097DABD24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F097DABB24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.xib */; };
+		F097DABF24A3C48700DC6C0F /* QuestionnairesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DABE24A3C48700DC6C0F /* QuestionnairesViewController.swift */; };
+		F097DAC224A3CE7B00DC6C0F /* QuestionnairesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097DAC024A3CE7B00DC6C0F /* QuestionnairesTableViewCell.swift */; };
+		F097DAC324A3CE7B00DC6C0F /* QuestionnairesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F097DAC124A3CE7B00DC6C0F /* QuestionnairesTableViewCell.xib */; };
+		F0D4A91E24A6045900DE9C4C /* BranchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4A91D24A6045900DE9C4C /* BranchesViewController.swift */; };
+		F0D4A92024A73A1F00DE9C4C /* CustomNaviationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4A91F24A73A1F00DE9C4C /* CustomNaviationBarViewController.swift */; };
+		F0D4A92224A7455200DE9C4C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4A92124A7455200DE9C4C /* AboutUsViewController.swift */; };
+		F0D4A92424A7530500DE9C4C /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4A92324A7530500DE9C4C /* ExtensionString.swift */; };
+		F0FEB0D424A87519004B885F /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FEB0D324A87519004B885F /* QuestViewController.swift */; };
+		F0FEB0D724A87D0E004B885F /* QuestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FEB0D524A87D0E004B885F /* QuestTableViewCell.swift */; };
+		F0FEB0D824A87D0E004B885F /* QuestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0FEB0D624A87D0E004B885F /* QuestTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8677F56EECC9ACF1D3AC54CC /* Pods-RoyalCrownInsuranceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalCrownInsuranceApp.debug.xcconfig"; path = "Target Support Files/Pods-RoyalCrownInsuranceApp/Pods-RoyalCrownInsuranceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BAA18D9C8ACD75EEDFEA47 /* Pods_RoyalCrownInsuranceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyalCrownInsuranceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD2065CCF1A5C3279DB7D32 /* Pods-RoyalCrownInsuranceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalCrownInsuranceApp.release.xcconfig"; path = "Target Support Files/Pods-RoyalCrownInsuranceApp/Pods-RoyalCrownInsuranceApp.release.xcconfig"; sourceTree = "<group>"; };
+		F0128C2924A3D20A00B17EF1 /* ServicessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicessViewController.swift; sourceTree = "<group>"; };
+		F0128C2C24A3D32400B17EF1 /* ServicessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicessTableViewCell.swift; sourceTree = "<group>"; };
+		F0128C2D24A3D32400B17EF1 /* ServicessTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicessTableViewCell.xib; sourceTree = "<group>"; };
+		F0128C3024A3F1B600B17EF1 /* ServiceDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDescriptionViewController.swift; sourceTree = "<group>"; };
+		F0128C3224A3FEAE00B17EF1 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		F022C4EB24AE5AD00036603B /* ExtensionColorUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColorUIImage.swift; sourceTree = "<group>"; };
+		F06387F724AE7C4D0010E5B2 /* ExtensionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTextField.swift; sourceTree = "<group>"; };
+		F0652B9724A49F3400F18941 /* ReportAnAccidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAnAccidentViewController.swift; sourceTree = "<group>"; };
+		F0652B9924A4A6CF00F18941 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0652B9A24A4A6CF00F18941 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		F0652B9F24A4E1B700F18941 /* CustumCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumCameraViewController.swift; sourceTree = "<group>"; };
+		F0652BA324A508B000F18941 /* CameraCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCollectionCell.swift; sourceTree = "<group>"; };
+		F0652BA424A508B000F18941 /* CameraCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraCollectionCell.xib; sourceTree = "<group>"; };
+		F097DA7C24A262D000DC6C0F /* RoyalCrownInsuranceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalCrownInsuranceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F097DA7F24A262D000DC6C0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F097DA8424A262D000DC6C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F097DA8624A262D300DC6C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F097DA8924A262D300DC6C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F097DA8B24A262D300DC6C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F097DA9224A262F400DC6C0F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F097DA9424A2654100DC6C0F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F097DA9624A2656400DC6C0F /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		F097DA9C24A28D5600DC6C0F /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		F097DA9E24A2906300DC6C0F /* MainScreenMaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenMaxCell.swift; sourceTree = "<group>"; };
+		F097DA9F24A2906300DC6C0F /* MainScreenMaxCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainScreenMaxCell.xib; sourceTree = "<group>"; };
+		F097DAA224A3326800DC6C0F /* ServicesAndAboutAndRoyalScrren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesAndAboutAndRoyalScrren.swift; sourceTree = "<group>"; };
+		F097DAA424A3333A00DC6C0F /* AboutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
+		F097DAA524A3333A00DC6C0F /* AboutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutTableViewCell.xib; sourceTree = "<group>"; };
+		F097DAB024A3744700DC6C0F /* PhotoScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoScreens.swift; sourceTree = "<group>"; };
+		F097DAB824A3BC9100DC6C0F /* WhatToDoIfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToDoIfViewController.swift; sourceTree = "<group>"; };
+		F097DABA24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToDoIfTableViewCell.swift; sourceTree = "<group>"; };
+		F097DABB24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatToDoIfTableViewCell.xib; sourceTree = "<group>"; };
+		F097DABE24A3C48700DC6C0F /* QuestionnairesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnairesViewController.swift; sourceTree = "<group>"; };
+		F097DAC024A3CE7B00DC6C0F /* QuestionnairesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnairesTableViewCell.swift; sourceTree = "<group>"; };
+		F097DAC124A3CE7B00DC6C0F /* QuestionnairesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionnairesTableViewCell.xib; sourceTree = "<group>"; };
+		F0D4A91D24A6045900DE9C4C /* BranchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesViewController.swift; sourceTree = "<group>"; };
+		F0D4A91F24A73A1F00DE9C4C /* CustomNaviationBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNaviationBarViewController.swift; sourceTree = "<group>"; };
+		F0D4A92124A7455200DE9C4C /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		F0D4A92324A7530500DE9C4C /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		F0E81E7224A808AF00FA0FB3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F0FEB0D324A87519004B885F /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
+		F0FEB0D524A87D0E004B885F /* QuestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestTableViewCell.swift; sourceTree = "<group>"; };
+		F0FEB0D624A87D0E004B885F /* QuestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F097DA7924A262D000DC6C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E8DB07E60D64D124F94A1F /* Pods_RoyalCrownInsuranceApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51232EA4DF2C0B61AB8B84F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8677F56EECC9ACF1D3AC54CC /* Pods-RoyalCrownInsuranceApp.debug.xcconfig */,
+				EDD2065CCF1A5C3279DB7D32 /* Pods-RoyalCrownInsuranceApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1A0C4A31DB6169F956425F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E81E7224A808AF00FA0FB3 /* WebKit.framework */,
+				A1BAA18D9C8ACD75EEDFEA47 /* Pods_RoyalCrownInsuranceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0128C2824A3D19D00B17EF1 /* WhatToDoIfCell */ = {
+			isa = PBXGroup;
+			children = (
+				F097DABA24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.swift */,
+				F097DABB24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.xib */,
+			);
+			path = WhatToDoIfCell;
+			sourceTree = "<group>";
+		};
+		F0128C2B24A3D2FC00B17EF1 /* ServicesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F0128C2C24A3D32400B17EF1 /* ServicessTableViewCell.swift */,
+				F0128C2D24A3D32400B17EF1 /* ServicessTableViewCell.xib */,
+			);
+			path = ServicesTableViewCell;
+			sourceTree = "<group>";
+		};
+		F02D30BE24AAFF4A008B4875 /* PhotoCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F0652B9924A4A6CF00F18941 /* PhotoCollectionViewCell.swift */,
+				F0652B9A24A4A6CF00F18941 /* PhotoCollectionViewCell.xib */,
+			);
+			path = PhotoCollectionView;
+			sourceTree = "<group>";
+		};
+		F02D30BF24AAFF74008B4875 /* CameraCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F0652BA324A508B000F18941 /* CameraCollectionCell.swift */,
+				F0652BA424A508B000F18941 /* CameraCollectionCell.xib */,
+			);
+			path = CameraCollectionView;
+			sourceTree = "<group>";
+		};
+		F02D30C124AAFFCC008B4875 /* QuestionnairesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F097DAC024A3CE7B00DC6C0F /* QuestionnairesTableViewCell.swift */,
+				F097DAC124A3CE7B00DC6C0F /* QuestionnairesTableViewCell.xib */,
+			);
+			path = QuestionnairesTableViewCell;
+			sourceTree = "<group>";
+		};
+		F02D30C224AAFFE7008B4875 /* QuestTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F0FEB0D524A87D0E004B885F /* QuestTableViewCell.swift */,
+				F0FEB0D624A87D0E004B885F /* QuestTableViewCell.xib */,
+			);
+			path = QuestTableViewCell;
+			sourceTree = "<group>";
+		};
+		F02D30C324AB0012008B4875 /* MainScreenController */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA9C24A28D5600DC6C0F /* MainScreenViewController.swift */,
+			);
+			path = MainScreenController;
+			sourceTree = "<group>";
+		};
+		F02D30C424AB004C008B4875 /* ServicesAndAboutAndRoyalScrren */ = {
+			isa = PBXGroup;
+			children = (
+				F097DAA224A3326800DC6C0F /* ServicesAndAboutAndRoyalScrren.swift */,
+			);
+			path = ServicesAndAboutAndRoyalScrren;
+			sourceTree = "<group>";
+		};
+		F02D30C524AB0078008B4875 /* WhatToDoIfViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F097DAB824A3BC9100DC6C0F /* WhatToDoIfViewController.swift */,
+			);
+			path = WhatToDoIfViewController;
+			sourceTree = "<group>";
+		};
+		F02D30C624AB00A2008B4875 /* QuestionnairesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F097DABE24A3C48700DC6C0F /* QuestionnairesViewController.swift */,
+			);
+			path = QuestionnairesViewController;
+			sourceTree = "<group>";
+		};
+		F02D30C724AB00B4008B4875 /* ServicessViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0128C2924A3D20A00B17EF1 /* ServicessViewController.swift */,
+			);
+			path = ServicessViewController;
+			sourceTree = "<group>";
+		};
+		F02D30C824AB00DA008B4875 /* ServiceDescriptionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0128C3024A3F1B600B17EF1 /* ServiceDescriptionViewController.swift */,
+			);
+			path = ServiceDescriptionViewController;
+			sourceTree = "<group>";
+		};
+		F02D30C924AB00EE008B4875 /* InstructionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0128C3224A3FEAE00B17EF1 /* InstructionViewController.swift */,
+			);
+			path = InstructionViewController;
+			sourceTree = "<group>";
+		};
+		F02D30CA24AB0108008B4875 /* ReportAnAccidentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0652B9724A49F3400F18941 /* ReportAnAccidentViewController.swift */,
+			);
+			path = ReportAnAccidentViewController;
+			sourceTree = "<group>";
+		};
+		F02D30CB24AB0113008B4875 /* CustumCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0652B9F24A4E1B700F18941 /* CustumCameraViewController.swift */,
+			);
+			path = CustumCameraViewController;
+			sourceTree = "<group>";
+		};
+		F02D30CC24AB0130008B4875 /* BranchesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4A91D24A6045900DE9C4C /* BranchesViewController.swift */,
+			);
+			path = BranchesViewController;
+			sourceTree = "<group>";
+		};
+		F02D30CD24AB0159008B4875 /* AboutUsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4A92124A7455200DE9C4C /* AboutUsViewController.swift */,
+			);
+			path = AboutUsViewController;
+			sourceTree = "<group>";
+		};
+		F02D30CE24AB016A008B4875 /* QuestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0FEB0D324A87519004B885F /* QuestViewController.swift */,
+			);
+			path = QuestViewController;
+			sourceTree = "<group>";
+		};
+		F02D30CF24AB0179008B4875 /* CustomNaviationBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4A91F24A73A1F00DE9C4C /* CustomNaviationBarViewController.swift */,
+			);
+			path = CustomNaviationBarViewController;
+			sourceTree = "<group>";
+		};
+		F02D30D024AB01A2008B4875 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA8324A262D000DC6C0F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F02D30D124AB01E4008B4875 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA8824A262D300DC6C0F /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		F02D30D224AB0201008B4875 /* AboutTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F097DAA424A3333A00DC6C0F /* AboutTableViewCell.swift */,
+				F097DAA524A3333A00DC6C0F /* AboutTableViewCell.xib */,
+			);
+			path = AboutTableViewCell;
+			sourceTree = "<group>";
+		};
+		F02D30D324AB0226008B4875 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4A92324A7530500DE9C4C /* ExtensionString.swift */,
+				F022C4EB24AE5AD00036603B /* ExtensionColorUIImage.swift */,
+				F06387F724AE7C4D0010E5B2 /* ExtensionTextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F097DA7324A262D000DC6C0F = {
+			isa = PBXGroup;
+			children = (
+				F097DA7E24A262D000DC6C0F /* RoyalCrownInsuranceApp */,
+				F097DA7D24A262D000DC6C0F /* Products */,
+				51232EA4DF2C0B61AB8B84F0 /* Pods */,
+				D1A0C4A31DB6169F956425F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F097DA7D24A262D000DC6C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA7C24A262D000DC6C0F /* RoyalCrownInsuranceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F097DA7E24A262D000DC6C0F /* RoyalCrownInsuranceApp */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA7F24A262D000DC6C0F /* AppDelegate.swift */,
+				F097DAB624A383AE00DC6C0F /* CollectionViewCells */,
+				F097DAB524A3839A00DC6C0F /* TableViewCells */,
+				F097DAB424A3833900DC6C0F /* ViewControllers */,
+				F02D30D324AB0226008B4875 /* Extensions */,
+				F02D30D124AB01E4008B4875 /* LaunchScreen */,
+				F02D30D024AB01A2008B4875 /* Storyboard */,
+				F097DA9124A262E700DC6C0F /* Model */,
+				F097DAB224A382B200DC6C0F /* Networking */,
+				F097DAB324A382DE00DC6C0F /* Resource */,
+			);
+			path = RoyalCrownInsuranceApp;
+			sourceTree = "<group>";
+		};
+		F097DA9124A262E700DC6C0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA9224A262F400DC6C0F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F097DAB224A382B200DC6C0F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA9424A2654100DC6C0F /* NetworkService.swift */,
+				F097DA9624A2656400DC6C0F /* NetworkDataFetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F097DAB324A382DE00DC6C0F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F097DAB024A3744700DC6C0F /* PhotoScreens.swift */,
+				F097DA8624A262D300DC6C0F /* Assets.xcassets */,
+				F097DA8B24A262D300DC6C0F /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F097DAB424A3833900DC6C0F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F02D30CF24AB0179008B4875 /* CustomNaviationBarViewController */,
+				F02D30CE24AB016A008B4875 /* QuestViewController */,
+				F02D30CD24AB0159008B4875 /* AboutUsViewController */,
+				F02D30CC24AB0130008B4875 /* BranchesViewController */,
+				F02D30CB24AB0113008B4875 /* CustumCameraViewController */,
+				F02D30CA24AB0108008B4875 /* ReportAnAccidentViewController */,
+				F02D30C924AB00EE008B4875 /* InstructionViewController */,
+				F02D30C824AB00DA008B4875 /* ServiceDescriptionViewController */,
+				F02D30C724AB00B4008B4875 /* ServicessViewController */,
+				F02D30C624AB00A2008B4875 /* QuestionnairesViewController */,
+				F02D30C524AB0078008B4875 /* WhatToDoIfViewController */,
+				F02D30C424AB004C008B4875 /* ServicesAndAboutAndRoyalScrren */,
+				F02D30C324AB0012008B4875 /* MainScreenController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F097DAB524A3839A00DC6C0F /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F02D30D224AB0201008B4875 /* AboutTableViewCell */,
+				F02D30C224AAFFE7008B4875 /* QuestTableViewCell */,
+				F02D30C124AAFFCC008B4875 /* QuestionnairesTableViewCell */,
+				F0128C2B24A3D2FC00B17EF1 /* ServicesTableViewCell */,
+				F0128C2824A3D19D00B17EF1 /* WhatToDoIfCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		F097DAB624A383AE00DC6C0F /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F02D30BF24AAFF74008B4875 /* CameraCollectionView */,
+				F02D30BE24AAFF4A008B4875 /* PhotoCollectionView */,
+				F097DAB724A383BD00DC6C0F /* CollectionHomeCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		F097DAB724A383BD00DC6C0F /* CollectionHomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				F097DA9E24A2906300DC6C0F /* MainScreenMaxCell.swift */,
+				F097DA9F24A2906300DC6C0F /* MainScreenMaxCell.xib */,
+			);
+			path = CollectionHomeCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F097DA7B24A262D000DC6C0F /* RoyalCrownInsuranceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F097DA8E24A262D300DC6C0F /* Build configuration list for PBXNativeTarget "RoyalCrownInsuranceApp" */;
+			buildPhases = (
+				7F1224562BFD077490C73FA4 /* [CP] Check Pods Manifest.lock */,
+				F097DA7824A262D000DC6C0F /* Sources */,
+				F097DA7924A262D000DC6C0F /* Frameworks */,
+				F097DA7A24A262D000DC6C0F /* Resources */,
+				3F88CB0B180BD8341FDB8289 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoyalCrownInsuranceApp;
+			productName = RoyalCrownInsuranceApp;
+			productReference = F097DA7C24A262D000DC6C0F /* RoyalCrownInsuranceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F097DA7424A262D000DC6C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Perepelitsia;
+				TargetAttributes = {
+					F097DA7B24A262D000DC6C0F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F097DA7724A262D000DC6C0F /* Build configuration list for PBXProject "RoyalCrownInsuranceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F097DA7324A262D000DC6C0F;
+			productRefGroup = F097DA7D24A262D000DC6C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F097DA7B24A262D000DC6C0F /* RoyalCrownInsuranceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F097DA7A24A262D000DC6C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FEB0D824A87D0E004B885F /* QuestTableViewCell.xib in Resources */,
+				F097DA8A24A262D300DC6C0F /* LaunchScreen.storyboard in Resources */,
+				F097DA8724A262D300DC6C0F /* Assets.xcassets in Resources */,
+				F097DABD24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.xib in Resources */,
+				F0652B9C24A4A6CF00F18941 /* PhotoCollectionViewCell.xib in Resources */,
+				F097DA8524A262D000DC6C0F /* Main.storyboard in Resources */,
+				F097DAA724A3333A00DC6C0F /* AboutTableViewCell.xib in Resources */,
+				F0652BA624A508B000F18941 /* CameraCollectionCell.xib in Resources */,
+				F0128C2F24A3D32400B17EF1 /* ServicessTableViewCell.xib in Resources */,
+				F097DAA124A2906300DC6C0F /* MainScreenMaxCell.xib in Resources */,
+				F097DAC324A3CE7B00DC6C0F /* QuestionnairesTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F88CB0B180BD8341FDB8289 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoyalCrownInsuranceApp/Pods-RoyalCrownInsuranceApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoyalCrownInsuranceApp/Pods-RoyalCrownInsuranceApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoyalCrownInsuranceApp/Pods-RoyalCrownInsuranceApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1224562BFD077490C73FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoyalCrownInsuranceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F097DA7824A262D000DC6C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0128C2A24A3D20A00B17EF1 /* ServicessViewController.swift in Sources */,
+				F0FEB0D424A87519004B885F /* QuestViewController.swift in Sources */,
+				F06387F824AE7C4D0010E5B2 /* ExtensionTextField.swift in Sources */,
+				F0D4A92024A73A1F00DE9C4C /* CustomNaviationBarViewController.swift in Sources */,
+				F022C4EC24AE5AD00036603B /* ExtensionColorUIImage.swift in Sources */,
+				F097DAB124A3744700DC6C0F /* PhotoScreens.swift in Sources */,
+				F0652B9824A49F3400F18941 /* ReportAnAccidentViewController.swift in Sources */,
+				F097DA9324A262F400DC6C0F /* Model.swift in Sources */,
+				F0652B9B24A4A6CF00F18941 /* PhotoCollectionViewCell.swift in Sources */,
+				F097DAA624A3333A00DC6C0F /* AboutTableViewCell.swift in Sources */,
+				F097DAB924A3BC9100DC6C0F /* WhatToDoIfViewController.swift in Sources */,
+				F0128C3124A3F1B600B17EF1 /* ServiceDescriptionViewController.swift in Sources */,
+				F0652BA024A4E1B700F18941 /* CustumCameraViewController.swift in Sources */,
+				F097DA9D24A28D5600DC6C0F /* MainScreenViewController.swift in Sources */,
+				F097DAC224A3CE7B00DC6C0F /* QuestionnairesTableViewCell.swift in Sources */,
+				F0128C3324A3FEAE00B17EF1 /* InstructionViewController.swift in Sources */,
+				F097DAA324A3326800DC6C0F /* ServicesAndAboutAndRoyalScrren.swift in Sources */,
+				F097DABF24A3C48700DC6C0F /* QuestionnairesViewController.swift in Sources */,
+				F0D4A92424A7530500DE9C4C /* ExtensionString.swift in Sources */,
+				F097DA9524A2654100DC6C0F /* NetworkService.swift in Sources */,
+				F0D4A92224A7455200DE9C4C /* AboutUsViewController.swift in Sources */,
+				F0128C2E24A3D32400B17EF1 /* ServicessTableViewCell.swift in Sources */,
+				F0FEB0D724A87D0E004B885F /* QuestTableViewCell.swift in Sources */,
+				F0D4A91E24A6045900DE9C4C /* BranchesViewController.swift in Sources */,
+				F0652BA524A508B000F18941 /* CameraCollectionCell.swift in Sources */,
+				F097DA8024A262D000DC6C0F /* AppDelegate.swift in Sources */,
+				F097DAA024A2906300DC6C0F /* MainScreenMaxCell.swift in Sources */,
+				F097DA9724A2656400DC6C0F /* NetworkDataFetcher.swift in Sources */,
+				F097DABC24A3BD5D00DC6C0F /* WhatToDoIfTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F097DA8324A262D000DC6C0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F097DA8424A262D000DC6C0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F097DA8824A262D300DC6C0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F097DA8924A262D300DC6C0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F097DA8C24A262D300DC6C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F097DA8D24A262D300DC6C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F097DA8F24A262D300DC6C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8677F56EECC9ACF1D3AC54CC /* Pods-RoyalCrownInsuranceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G73GT46FR;
+				INFOPLIST_FILE = "$(SRCROOT)/RoyalCrownInsuranceApp/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = perepelitsia.com.RoyalCrownInsuranceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F097DA9024A262D300DC6C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD2065CCF1A5C3279DB7D32 /* Pods-RoyalCrownInsuranceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G73GT46FR;
+				INFOPLIST_FILE = "$(SRCROOT)/RoyalCrownInsuranceApp/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = perepelitsia.com.RoyalCrownInsuranceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F097DA7724A262D000DC6C0F /* Build configuration list for PBXProject "RoyalCrownInsuranceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F097DA8C24A262D300DC6C0F /* Debug */,
+				F097DA8D24A262D300DC6C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F097DA8E24A262D300DC6C0F /* Build configuration list for PBXNativeTarget "RoyalCrownInsuranceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F097DA8F24A262D300DC6C0F /* Debug */,
+				F097DA9024A262D300DC6C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F097DA7424A262D000DC6C0F /* Project object */;
+}

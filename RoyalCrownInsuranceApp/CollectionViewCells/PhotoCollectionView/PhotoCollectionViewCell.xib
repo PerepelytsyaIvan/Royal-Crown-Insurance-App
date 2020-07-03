@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PhotoCollectionViewCell" customModule="RoyalCrownInsuranceApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="98" height="89"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bfJ-jO-pce">
+                        <rect key="frame" x="0.0" y="0.0" width="98" height="89"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8V-mv-9th">
+                        <rect key="frame" x="74" y="0.0" width="24" height="24"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="icClose"/>
+                        <connections>
+                            <action selector="delateImageButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="G8q-X4-xlx"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="bfJ-jO-pce" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4u0-eT-l2m"/>
+                <constraint firstItem="bfJ-jO-pce" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="HBg-2Y-FZi"/>
+                <constraint firstAttribute="trailing" secondItem="bfJ-jO-pce" secondAttribute="trailing" id="JRP-9L-XYT"/>
+                <constraint firstAttribute="trailing" secondItem="f8V-mv-9th" secondAttribute="trailing" id="TdV-ql-K4w"/>
+                <constraint firstAttribute="bottom" secondItem="bfJ-jO-pce" secondAttribute="bottom" id="gw4-v2-GBg"/>
+                <constraint firstItem="f8V-mv-9th" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="o4P-Ku-Wgx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="98" height="89"/>
+            <connections>
+                <outlet property="delatePhotoButton" destination="f8V-mv-9th" id="Ks9-uD-tDL"/>
+                <outlet property="photoImageView" destination="bfJ-jO-pce" id="gEW-cG-zkB"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="104.79910714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icClose" width="24" height="24"/>
+    </resources>
+</document>
